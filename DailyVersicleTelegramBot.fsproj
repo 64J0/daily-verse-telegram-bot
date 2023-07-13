@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net7.0</TargetFramework>
-    <RootNamespace>daily_versible_telegram_bot</RootNamespace>
+    <RootNamespace>DailyVersicleTelegramBot</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

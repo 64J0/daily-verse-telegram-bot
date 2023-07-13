@@ -8,7 +8,7 @@
         "type": "coreclr",
         "request": "launch",
         "preLaunchTask": "build",
-        "program": "${workspaceFolder}/bin/Debug/net7.0/daily-versicle-telegram-bot.dll",
+        "program": "${workspaceFolder}/bin/Debug/net7.0/DailyVersicleTelegramBot.dll",
         "args": [],
         "cwd": "${workspaceFolder}",
         "stopAtEntry": false,
