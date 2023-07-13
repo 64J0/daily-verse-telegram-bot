@@ -1,12 +1,12 @@
-﻿open Bot.Versicle
+﻿open Bot.Verse
 open Bot.Telegram
 
 [<EntryPoint>]
 let main (_args: string[]) : int =
-    let versicle = getVersicle ()
-    let trimmedVersicle = versicle.Trim()
+    let verse = getVerse ()
+    let trimmedVerse = verse.Trim()
 
-    let t = sendVersicleToTelegram (trimmedVersicle)
+    let t = sendVerseToTelegram (trimmedVerse)
     t.Wait()
 
     0

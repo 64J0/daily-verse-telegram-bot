@@ -14,5 +14,5 @@ let private TELEGRAM_API_TOKEN =
 
 let private bot = new TelegramBotClient(TELEGRAM_API_TOKEN)
 
-let sendVersicleToTelegram (versicle: string) : Task<Message> =
-    task { return! bot.SendTextMessageAsync(CHAT_ID, versicle) }
+let sendVerseToTelegram (verse: string) : Task<Message> =
+    task { return! bot.SendTextMessageAsync(CHAT_ID, verse) }

@@ -1,4 +1,4 @@
-module Bot.Versicle
+module Bot.Verse
 
 open FSharp.Data
 
@@ -7,7 +7,7 @@ let private BIBLIA_ON_URL = "https://www.bibliaon.com/versiculo_do_dia/"
 
 type BibliaOn = HtmlProvider<BIBLIA_ON_URL>
 
-let getVersicle () : string =
+let getVerse () : string =
     BibliaOn().Html.Elements().CssSelect("#versiculo_hoje")
     |> List.map (fun t -> t.InnerText())
     |> List.fold (+) ""

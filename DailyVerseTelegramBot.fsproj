@@ -3,11 +3,11 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net7.0</TargetFramework>
-    <RootNamespace>DailyVersicleTelegramBot</RootNamespace>
+    <RootNamespace>DailyVerseTelegramBot</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="src/Versicle.fs" />
+    <Compile Include="src/Verse.fs" />
     <Compile Include="src/Telegram.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
