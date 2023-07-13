@@ -1,0 +1,19 @@
+#+TITLE: Daily Versicle Telegram Bot
+#+AUTHOR: 64J0
+#+DATE: [2023-07-12 qua]
+
+* Description
+
+The idea of this project is to create a Telegram bot that sends a bible's
+versicle once in a day.
+
+It can be hosted in GitHub Actions since the free plan allows us to spend at
+most 2k minutes.
+
+* References
+
+- https://medium.com/cwi-software/primeiros-passos-com-f-e-web-scraping-90ee1b9e586e
+- https://fsprojects.github.io/FSharp.Data/library/HtmlProvider.html
+- https://core.telegram.org/bots/tutorial
+- https://gitlab.com/Athamaxy/telegram-bot-tutorial/-/blob/main/TutorialBot.cs
+- https://gist.github.com/zapisnicar/247d53f8e3980f6013a221d8c7459dc3
