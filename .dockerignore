@@ -2,4 +2,5 @@
 .github/
 bin/
 obj/
+publish/
 README.org
