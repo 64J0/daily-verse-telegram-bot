@@ -2,9 +2,9 @@ name: Cron Exec
 
 on:
   workflow_dispatch:
-  schedule:
-    # triggers everyday 08:00
-    - cron '0 8 * * *'
+  # schedule:
+  #   # triggers everyday 08:00
+  #   - cron '0 8 * * *'
 
 env:
   CHAT_ID: ${{ secrets.CHAT_ID }}
