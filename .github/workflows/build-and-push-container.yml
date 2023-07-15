@@ -24,9 +24,9 @@ jobs:
           LAST_COMMIT_DT=$(git log -1 --format="%at" | xargs -I{} date -d @{} +%Y.%m.%d-%H.%M.%S)
 
           IMAGE="ghcr.io/64j0/daily-verse-telegram-bot:${LAST_COMMIT_DT}"
-          echo "FINAL_IMAGE=${IMAGE}"
+          echo "FINAL_IMAGE=${IMAGE}" >> $GITHUB_ENV
 
           docker build . --tag "${IMAGE}"
       - name: Push container
         run: |
-          docker push $FINAL_IMAGE
+          docker push "${FINAL_IMAGE}"
