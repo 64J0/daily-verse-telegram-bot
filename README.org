@@ -8,6 +8,24 @@ A ideia deste projeto é criar um bot para o Telegram que envia um versículo da
 Bíblia diariamente para um chat específico. Minha ideia é hospedá-lo usando a
 própria plataforma do GitHub Actions, sendo disparado por uma expressão cron.
 
+* Container Docker
+
+Para facilitar o uso do projeto, disponibilizamos um Dockerfile responsável por
+containerizar a aplicação. Note que é um Dockerfile de múltiplos estágios e o
+último estágio é uma imagem chiseled (equivalente distroless pra .NET).
+
+Para construir e usar a imagem basta executar os comandos:
+
+#+BEGIN_SRC bash :tangle no
+  docker build . \
+         -t daily-bot:v1
+
+  docker run \
+         -e "CHAT_ID=<seu-chat-id>" \
+         -e "TELEGRAM_API_TOKEN=<seu-token>" \
+         daily-bot:v1
+#+END_SRC
+
 * Referências
 
 - https://medium.com/cwi-software/primeiros-passos-com-f-e-web-scraping-90ee1b9e586e
