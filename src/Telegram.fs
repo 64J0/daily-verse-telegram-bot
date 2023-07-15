@@ -1,8 +1,9 @@
 module Bot.Telegram
 
 open System
-open Telegram.Bot
 open System.Threading.Tasks
+
+open Telegram.Bot
 open Telegram.Bot.Types
 
 // Find the chatId:
