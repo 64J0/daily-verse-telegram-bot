@@ -2,18 +2,18 @@
 #+AUTHOR: 64J0
 #+DATE: [2023-07-12 qua]
 
-* Description
+* Descrição
 
-The idea of this project is to create a Telegram bot that sends a bible
-verse once in a day.
+A ideia deste projeto é criar um bot para o Telegram que envia um versículo da
+Bíblia diariamente para um chat específico. Minha ideia é hospedá-lo usando a
+própria plataforma do GitHub Actions, sendo disparado por uma expressão cron.
 
-It can be hosted in GitHub Actions since the free plan allows us to spend at
-most 2k minutes.
-
-* References
+* Referências
 
 - https://medium.com/cwi-software/primeiros-passos-com-f-e-web-scraping-90ee1b9e586e
 - https://fsprojects.github.io/FSharp.Data/library/HtmlProvider.html
 - https://core.telegram.org/bots/tutorial
 - https://gitlab.com/Athamaxy/telegram-bot-tutorial/-/blob/main/TutorialBot.cs
 - https://gist.github.com/zapisnicar/247d53f8e3980f6013a221d8c7459dc3
+- https://didourebai.medium.com/best-practices-to-prepare-net-docker-images-26ce72d5cf7d
+- https://medium.com/codex/net-6-now-on-ubuntu-22-04-dotnet-6-on-chiseled-ubuntu-containers-ubuntu-canonical-%EF%B8%8F-microsoft-19f5e3d3af1b
