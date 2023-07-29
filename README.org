@@ -1,12 +1,17 @@
 #+TITLE: Daily Verse Telegram Bot
 #+AUTHOR: 64J0
 #+DATE: [2023-07-12 qua]
+#+startup: inlineimages
 
 * Descrição
 
 A ideia deste projeto é criar um bot para o Telegram que envia um versículo da
 Bíblia diariamente para um chat específico. Minha ideia é hospedá-lo usando a
 própria plataforma do GitHub Actions, sendo disparado por uma expressão cron.
+
+** Exemplo
+
+[[./assets/telegram-example.png]]
 
 * Container Docker
 
